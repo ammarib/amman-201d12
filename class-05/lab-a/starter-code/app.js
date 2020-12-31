@@ -115,7 +115,7 @@ var testArray = [2, 3, 4]; //eslint-disable-line
     return arrayReturn;
 
 
-    }console.log(totalArr)
+    }console.log(totalArr) 
 // Here is the test for sumArray(); uncomment it to run it
 
  testSumArray(testArray);
