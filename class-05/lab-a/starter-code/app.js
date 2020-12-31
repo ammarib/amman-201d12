@@ -107,6 +107,7 @@ the call for the testSumArray() function and see if the test passes.*/
 var testArray = [2, 3, 4]; //eslint-disable-line
  function sumArray(sumArr) { //eslint-disable-line
     var theArraySum = sum(sumArr[0], sumArr[1])[0];
+    console.log(theArraySum)
     var totalArr = sum(theArraySum, sumArr[2])[0];
     var arrayReturn = [
         totalArr, 
@@ -114,7 +115,7 @@ var testArray = [2, 3, 4]; //eslint-disable-line
     return arrayReturn;
 
 
-    }
+    }console.log(totalArr)
 // Here is the test for sumArray(); uncomment it to run it
 
  testSumArray(testArray);
